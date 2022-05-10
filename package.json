@@ -21,6 +21,7 @@
         "build": "rollup -c",
         "build:dev": "rollup -c --watch",
         "eslint": "eslint . --ext .ts,.tsx",
+        "push": "git subtree push --prefix build origin npm",
         "prepare": "npm run build"
     },
     "devDependencies": {
