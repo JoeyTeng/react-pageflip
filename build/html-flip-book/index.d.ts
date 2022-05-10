@@ -1,2 +1,3 @@
+import { PageFlip } from 'page-flip';
 export declare const HTMLFlipBook: any;
-export { PageFlip } from 'page-flip';
+export declare const PageFlipType: typeof PageFlip;
