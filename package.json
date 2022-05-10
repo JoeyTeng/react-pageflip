@@ -20,7 +20,8 @@
     "scripts": {
         "build": "rollup -c",
         "build:dev": "rollup -c --watch",
-        "eslint": "eslint . --ext .ts,.tsx"
+        "eslint": "eslint . --ext .ts,.tsx",
+        "prepare": "npm run build"
     },
     "devDependencies": {
         "@rollup/plugin-commonjs": "^15.1.0",
