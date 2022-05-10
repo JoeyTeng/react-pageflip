@@ -126,3 +126,4 @@ const HTMLFlipBookForward = React.forwardRef(
 );
 
 export const HTMLFlipBook = React.memo(HTMLFlipBookForward);
+export { PageFlip } from 'page-flip';
