@@ -126,4 +126,4 @@ const HTMLFlipBookForward = React.forwardRef(
 );
 
 export const HTMLFlipBook = React.memo(HTMLFlipBookForward);
-export declare const PageFlipType: typeof PageFlip;
+export type PageFlipType = InstanceType<typeof PageFlip>;
